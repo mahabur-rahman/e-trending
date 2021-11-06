@@ -1,0 +1,38 @@
+// google fonts
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap");
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    // font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+// modal btn
+.modal {
+    .btn-primary {
+        background-color: #115147;
+        border-color: #115147;
+    }
+    .btn-secondary {
+        opacity: 0.8;
+        background-color: #ff0000;
+        border-color: #ff0000;
+    }
+}
